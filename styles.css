@@ -1,0 +1,239 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color:black;
+  }
+  
+  header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px; /* Adjust based on header height */
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    background-color: #2980b9;
+    border-radius: 5px;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #commission-form {
+    max-width: 450px;
+    margin: auto;
+  }
+
+  #commissionForm {
+    padding: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input,
+  button,
+  textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; /* Make form elements fill the container */
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: #333;
+  }
+
+  .mainhead {
+    color: white
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  #artworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .artwork-listing {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .artwork-listing img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 600px) {
+    section {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    #commission-form {
+      max-width: 100%;
+    }
+  
+    #artworks {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .artwork-listing {
+      width: 100%;
+    }
+    
+    nav {
+      justify-content: center;
+    }
+  
+    nav a {
+      margin: 0 5px;
+    }
+  
+    header {
+      padding: 0.5em 0;
+    }
+  }
+  
+  
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .auth-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .auth-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .auth-form label {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .auth-form input {
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-form button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .auth-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  p {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  #about {
+    font-size:25px;
+  }
